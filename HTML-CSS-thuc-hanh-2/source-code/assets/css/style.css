@@ -148,7 +148,7 @@ main {
 }
 
 #section1 {
-  height: 400px;
+  height: auto;
   padding-left: 150px;
 }
 
@@ -176,4 +176,30 @@ main {
 
 .text-right {
   float: right;
+}
+
+.col-4 {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#collumn {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.horizontal-line {
+  border-top: 1px solid #7b7979;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.btn-container .btn-SeeAll {
+  width: 200px;
 }
