@@ -1,0 +1,179 @@
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span {
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body {
+  background-color: bisque;
+  background-size: cover;
+}
+
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  padding-block: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  z-index: 4;
+
+}
+
+.header {
+  padding-inline: 16px;
+  top: 45px;
+  max-width: 1000px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-inline: 16px;
+  border-radius: 15px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 36px;
+  margin-inline: auto;
+}
+
+.navbar {
+  display: contents;
+  text-align: right;
+  margin-right: 100px;
+}
+
+
+a {
+  text-decoration: none;
+  padding: 0 3px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+a:hover {
+  transform: translateY(-5px);
+}
+
+main {
+  padding: 0 20px;
+}
+
+.shape-container {
+  position: relative;
+  height: 450px;
+  width: 450px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  mask-image: url("../images/blob.svg");
+  overflow: hidden;
+  object-fit: cover;
+  mask-repeat: no-repeat;
+}
+
+.popup {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.Julia {
+  display: flex;
+  margin: 200px 100px;
+}
+
+.container {
+  display: flex;
+
+}
+
+.content-container {
+  width: 300px;
+  margin-left: 250px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-container button {
+  height: 50px;
+  width: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid hotpink;
+  color: hotpink;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.btn-container button:hover {
+  background-color: hotpink;
+  color: white;
+  transform: translateY(-5px);
+}
+
+#container1 {
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: space-between;
+}
+
+#section1 {
+  height: 400px;
+  padding-left: 150px;
+}
+
+.progress-container {
+  position: relative;
+  width: 1200px;
+  height: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 30px;
+}
+
+.progress-fill {
+  height: inherit;
+}
+
+.progress {
+  background-color: whitesmoke;
+  height: 6px;
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.text-right {
+  float: right;
+}
