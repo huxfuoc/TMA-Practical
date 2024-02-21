@@ -22,8 +22,16 @@ span {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.body {
-  background-color: bisque;
+@media (max-width: 768px) {
+
+  /* CSS rules cho kích thước màn hình nhỏ hơn hoặc bằng 768px */
+  body {
+    max-width: 100%;
+  }
+}
+
+body {
+  max-width: 100%;
   background-size: cover;
 }
 
@@ -226,11 +234,15 @@ section {
 }
 
 .contract {
+  max-width: 100%;
   display: grid;
   grid-template-columns: 0.8fr 1fr;
   align-items: center;
   gap: 90px;
   padding: 40px 70px 40px 40px;
+  background-color: #ffe8e8;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
 #submit {
@@ -249,7 +261,6 @@ input {
 textarea {
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 7px;
-  margin-right: 300px;
   width: 100%;
   height: 100px;
   padding: 18px;
@@ -261,6 +272,6 @@ footer {
   padding-block: 40px;
   display: flex;
   gap: 36px;
-  margin-inline: auto;
+  margin-right: 250px;
   justify-content: space-between;
 }
